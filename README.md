@@ -1,3 +1,5 @@
+
+![Fondo Tutorial Kids on Bikes](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/cc01b23d-0e75-4d58-96fe-232523b7f4f4)
 # Fichas para Kids on Bikes en Custom System Builder
 
 ## Tabla de Contenido
