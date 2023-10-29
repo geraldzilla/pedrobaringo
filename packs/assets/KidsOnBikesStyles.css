@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Dreadful";
+    src: url("../assets/fonts/Dreadful-Regular.otf");
+}
+@font-face {
+    font-family: "IndieFlower";
+    src: url("../assets/fonts/IndieFlower.ttf");
+}
+.custom-system-actor-content {
+    background: url("../assets/Fondo ficha.webp");
+    background-color: grey;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+}
+.header-fields {
+    background: url("../assets/fondolineas3.webp");
+    background-size: cover;
+	background-repeat: no-repeat;
+	filter: drop-shadow(3px 3px 4px black);
+	margin-left:10px;
+}
+.panelcaract {
+    background: url("../assets/fondolineas2.webp");
+    background-size: cover;
+	background-repeat: no-repeat;
+	font-family:'Dreadful';
+	font-size: 35px;
+	filter: drop-shadow(3px 3px 4px black);
+}
+.panelcaractadv {
+	grid-template-columns: 70% 20%;
+}
+.selectdado select{
+	height:100%;
+	background-color:rgba(0, 0, 0, 0);
+}
+.panelhab{
+	grid-template-columns: 50% 30% 10%;
+	gap:0px;
+	width:100%;
+}
+.descripciones label{
+	font-family:'Dreadful';
+	font-size: 35px;
+}
+.descripciones, .descripcionesselect{
+	font-family:'IndieFlower';
+	font-size: 16px;
+	padding-bottom:5px;
+}
+.descripcionesselect select{
+	height:100%;
+	background-color:rgba(0, 0, 0, 0);
+}
+.descripciones input{
+	height:100%;
+	background-color:rgba(0, 0, 0, 0);
+}
+.tabspanel nav {
+	background: url("../assets/fondolineas2.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family:'Dreadful';
+	color: #505851;
+	font-size: 35px;
+	filter: drop-shadow(3px 3px 4px black);
+}
+.tabspanel nav .item.active{
+	color: black;
+	text-decoration: underline;
+}
+.labadv {
+	font-family:'Dreadful';
+	font-size: 35px;
+	padding-top:10px;
+}
+.adv input{
+	font-family:'IndieFlower';
+	font-size: 50px;
+	width:100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0);
+}
+.paneladv {
+	background: url("../assets/fondolineas2.webp");
+	filter: drop-shadow(3px 3px 4px black);
+	background-size: auto;
+	background-repeat: no-repeat;
+	padding-bottom:10px;
+}
+.panvirtudes {
+	background: url("../assets/fondocuadros.webp");
+	filter: drop-shadow(3px 3px 4px black);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.tablavirtizq table, .tablavirtder table{
+	background-color:rgba(0, 0, 0, 0);
+	border: 0px;
+}
+.tablavirtizq, .tablavirtder {
+	font-family:'Dreadful';
+	font-size: 25px;
+}
+.tablavirtizq table{
+	border-right: 4px solid;
+}
+.tablavirtder {
+	padding-right:10px;
+}
+.paneldesc {
+	background: url("../assets/fondolineas.webp");
+	filter: drop-shadow(3px 3px 4px black);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-left:11%;
+	padding-top: 10%;
+}
+.textslab {
+	font-family:'Dreadful';
+	font-size: 35px;
+}
+.textscont {
+	font-family:'IndieFlower';
+	font-size: 13px;
+	padding:10px;
+}
+.custom-system-actor .profile-img-container {
+	background: url("../assets/Polaroid.webp");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding:18px 15px 51px 16px;
+	border: 0px;
+	filter: drop-shadow(3px 3px 4px black);
+}
+.charname input{
+	font-family:'Dreadful';
+	font-size: 45px;
+	background-color:rgba(0, 0, 0, 0);
+}
+.chat-message {
+	background: url("../assets/fondolineas2.webp");
+}
+.chat-message .message-content h1{
+font-family:'Dreadful';
+	font-size:40px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h2{
+	font-family:'Dreadful';
+	font-size:35px;
+	text-align:center;
+	border:0px;
+}
+.custom-system-roll i{
+	display: none;
+}
+.custom-system-roll {
+    background: #fff0;
+	width:50%;
+}
+.chat-message .message-header .message-sender {
+	font-family:'Dreadful';
+	font-size:20px;
+	color: black;
+}
+.tablaaspectos {
+	padding-left:10px;
+	padding-right:10px;
+}
+.tablaaspectos table{
+	background-color:rgba(0, 0, 0, 0);
+	border: 0px;
+}
+.tablaaspectos table tr:first-child{
+	font-family:'Dreadful';
+	font-size: 25px;
+}
+.tablaaspectos table tr{
+	font-family:'IndieFlower';
+	font-size: 13px;
+}
+.panelaspect {
+	background: url("../assets/fondolineas3.webp");
+    background-size: cover;
+	background-repeat: no-repeat;
+	font-family:'Dreadful';
+	font-size: 35px;
+	filter: drop-shadow(3px 3px 4px black);
+}
+.paneldescpoten{
+	background: url("../assets/fondolineas.webp");
+	filter: drop-shadow(3px 3px 4px black);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-left:11%;
+	padding-top: 5%;
+}
