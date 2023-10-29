@@ -6,7 +6,7 @@
 - [Añadir estilos CSS](#añadir-estilos-css)
 - [Crear un PJ](#crear-un-pj)
   - [Pestaña de Caracteristicas y Virtudes](#pestaña-de-caracteristicas-y-virtudes)
-  - [Pestaña de Descripción y Notas](#pestaña-de-descripcion-y-notas)
+  - [Pestaña de Descripción y Notas](#pestaña-de-descripción-y-notas)
 - [Crear un PNJ](#crear-un-pnj)
   - [Pestaña de Habilidades](#pestaña-de-habilidades-1)
   - [Pestaña de Talentos y Limitaciones](#pestaña-de-talentos-y-limitaciones-1)
