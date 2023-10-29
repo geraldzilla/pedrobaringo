@@ -5,9 +5,8 @@
 - [Instalación](#instalación)
 - [Añadir estilos CSS](#añadir-estilos-css)
 - [Crear un PJ](#crear-un-pj)
-  - [Pestaña de Habilidades](#pestaña-de-habilidades)
-  - [Pestaña de Talentos y Limitaciones](#pestaña-de-talentos-y-limitaciones)
-  - [Pestaña de Experiencia y Notas](#pestaña-de-experiencia-y-notas)
+  - [Pestaña de Caracteristicas y Virtudes](#pestaña-de-caracteristicas-y-virtudes)
+  - [Pestaña de Descripción y Notas](#pestaña-de-descripcion-y-notas)
 - [Crear un PNJ](#crear-un-pnj)
   - [Pestaña de Habilidades](#pestaña-de-habilidades-1)
   - [Pestaña de Talentos y Limitaciones](#pestaña-de-talentos-y-limitaciones-1)
@@ -31,17 +30,17 @@ Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente en
 ## Instalación
 Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: [https://github.com/pedrobaringo/liminal-csb-es/releases/latest/download/module.json](https://github.com/pedrobaringo/kids-on-bikes-csb-es/releases/latest/download/module.json)
 
-![image](https://github.com/pedrobaringo/liminal-csb-es/assets/148097688/1d94e7aa-e573-4d8b-86e6-29c1fcd61003)
+![image](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/fb5d72b0-12d4-405c-9ddd-0321c556f317)
 
-Cuando hayas creado un mundo con el sistema Custom System Builder debes activar este módulo. En la pestaña de compendios tendrás dos: "Templates_Actores" y "Templates_Objetos".
-Es importante que importes primero los Objetos y después los Actores, pero sobretodo que se mantenga el ID del documento como se ve en la imagen:
+Cuando hayas creado un mundo con el sistema Custom System Builder debes activar este módulo. En la pestaña de compendios tendrás: "Templates_Actores".
+Es importante que al importar mantenga el ID del documento como se ve en la imagen:
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/6fa9c0c2-1936-4db6-99b2-7e80f54e7172)
+![image](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/d4ea90fb-d04a-4179-ab39-4fe8ed639835)
 
 ## Añadir estilos CSS
-Para que el estilo de las fichas y mensajes sean más parecidos al libro debemos ir a Configurar Ajustes --> Custom System Builder y allí rellenarel campo CSS Style file con "modules/liminal-csb-es/packs/assets/LiminalStyle.css", sin las comillas. Y ya que estamos en este menú, aprovechamos para cambiar la Initiative formula a "ispnj == 1 ? iniciativa : [2d6]+iniciativa" (sin las comillas y en minuscula) y en Roll Icons ponemos "dice" (tambien sin comillas).
+Para que el estilo de las fichas y mensajes sean más parecidos al libro debemos ir a Configurar Ajustes --> Custom System Builder y allí rellenar el campo CSS Style file con "modules/kids-on-bikes-csb-es/packs/assets/KidsOnBikesStyles.css", sin las comillas. Y ya que estamos en este menú, si queremos que nos aparezca un icono de dados al lado de los campos que se pueden tirar, en Roll Icons ponemos "dice" (tambien sin comillas). En iniciativa no es necesario poner nada.
 
-![image](https://github.com/pedrobaringo/liminal-csb-es/assets/148097688/0fd3db3f-676d-47d3-95ab-fb0fc788b609)
+![image](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/ff90dd46-6a2d-4c17-9a7e-5c5163fcf81f)
 
 Para que tenga efecto debemos refrescar la página.
 
@@ -49,31 +48,26 @@ Para que tenga efecto debemos refrescar la página.
 Una vez estan importadas las templates ya podemos crear los Actores.
 Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
 
-![image](https://github.com/pedrobaringo/liminal-csb-es/assets/148097688/07a82ac1-00fa-4a28-94f4-9f37d5ca5ac8)
+![image](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/64c2877c-a108-40f8-870d-f27a02cda157)
 
 Aqui tenemos que seleccionar en Template la llamada PJ_Template.
 
 Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
 
-![image](https://github.com/pedrobaringo/liminal-csb-es/assets/148097688/0aa28db8-8425-4dab-af2b-5a9e8d641833)
+![image](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/68ee6e19-88dc-445d-8ce9-865311a8006e)
 
-En la parte de arriba se pueden poner el concepto, el equipo al que pertenece y la motivación del personaje.
+En la parte de arriba se pueden poner la edad, seleccionar si es niño, adolescente o adulto (aplica los modificadores pertinentes en las habilidades), los miedos, la motivación y los defectos del personaje.
 
-### Pestaña de Habilidades
-En la pestaña de habilidades se pueden modificar los valores de las habilidades. Tambien se pueden escribir las especialidades y poner el limite de habilidad.
+### Pestaña de Caracteristicas y Virtudes
+En esta pestaña tenemoslas 6 caracteristicas, podemos seleccionar el dado correspondiente en el desplegable y hacer las tiradas haciendo click en el nombre de la caracteristica.
 
-Al seleccionar el Enfoque se actualizarán la resistencia y voluntad máximas máxima. Si por algun talento el personaje tuviese un limite de resistencia o voluntad más alto, se puede añadir ese modificador a la Resistencia y voluntad Extras.
+Tambien tenemos el contador de fichas de adversidad que se puede subir o bajar con los botones que aparecen al pasar por encima o escribiendo.
 
-Finalmente abajo del todo tenemos la tabla donde podremos arrastras los objetos de armas.
+Finalmente tenemos la sección de virtudes donde podemos seleccionar las que tiene nuestro PJ y personalizar las que pueden ser personalizadas. Ademas si mantienes el ratón encima de la virtud aparece un tooltip con el efecto de esa virtud.
 
-### Pestaña de Talentos y Limitaciones
-En esta pestaña se pueden arrastrar los objetos creados con las templates respectivas y se añadirán a la tabla correspondiente.
-Si se quiere modificar un talento o complicación se puede clickar en el nombre de ésta para abrir su ficha y cambiar lo que se quiera (solo afecta a la de la ficha).
-Se pueden borrar con el icono de papelera de la derecha.
+![image](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/7caa7f61-9a74-467e-b358-c8bda1a74f5d)
 
-![image](https://github.com/pedrobaringo/liminal-csb-es/assets/148097688/741d6a10-1526-4ba2-aee4-9b1c256f3d1d)
-
-### Pestaña de Experiencia y Notas
+### Pestaña de Descripción y Notas
 En esta pestaña podras marcar los puntos de experiencia que vayas ganando y los avances. Tambien puedes anotar el dinero que tiene el personaje y añadirle equipo con el botón + de la tabla.
 
 En el apartado de notas puedes escribir el trasfondo del personaje o tomar notas de la partida.
