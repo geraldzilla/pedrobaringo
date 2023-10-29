@@ -199,3 +199,37 @@ font-family:'Dreadful';
 	padding-left:11%;
 	padding-top: 5%;
 }
+.paneldices {
+	font-family:'Dreadful';
+	font-size: 35px;
+}
+.numdadopsic input{
+	height:100%;
+	background-color:rgba(0, 0, 0, 0);
+}
+.custom-system-user-inputs tbody td label{
+	font-family:'Dreadful';
+	font-size: 35px;
+}
+.custom-system-user-inputs  thead{
+	display:none;
+}
+.custom-system-user-inputs  tbody td input{
+	font-family:'IndieFlower';
+	font-size: 25px;
+	text-align: center;
+	width:10%;
+	height:30px;
+	padding-top:10px;
+}
+.custom-system-user-inputs  tbody td button{
+	font-family:'Dreadful';
+	font-size: 25px;
+	text-align: center;
+	width:10%;
+}
+.custom-system-user-inputs{
+	background-color:rgba(0, 0, 0, 0);
+	border: 0px;
+	width:500px;
+}
