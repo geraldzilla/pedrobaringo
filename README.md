@@ -15,7 +15,7 @@ Modulo de Foundry VTT con las templates de las fichas para el juego Kids on Bike
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente enlace:
 
-[![Video del tutorial](http://img.youtube.com/vi/2LBxsz_r_Wg/0.jpg)](http://www.youtube.com/watch?v=2LBxsz_r_Wg "Tutorial Foundry-Kids on Bikes")
+[![Video del tutorial](http://img.youtube.com/vi/vsIx_xzhEPo/0.jpg)](http://www.youtube.com/watch?v=vsIx_xzhEPo "Tutorial Foundry-Kids on Bikes")
 
 
 ## Instalación
