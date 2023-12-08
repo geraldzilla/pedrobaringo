@@ -17,7 +17,9 @@
   },
   "authors": [
     {
-      "name": "Pedro Baringo"
+      "name": "Pedro Baringo",
+	  "discord": "pedrobari",
+	  "flags": {}
     }
   ],
   "styles": [
