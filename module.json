@@ -18,8 +18,10 @@
   "authors": [
     {
       "name": "Pedro Baringo",
+	  "url": "https://github.com/pedrobaringo",
 	  "discord": "pedrobari",
-	  "flags": {}
+	  "github": "pedrobaringo"
+      "flags": {}
     }
   ],
   "styles": [
