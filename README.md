@@ -5,6 +5,7 @@
 ## Tabla de Contenido
 - [Introducción](#introducción)
 - [Instalación](#instalación)
+- [Añadir estilos CSS](#añadir-estilos-css)
 - [Crear un PJ](#crear-un-pj)
   - [Pestaña de Caracteristicas y Virtudes](#pestaña-de-caracteristicas-y-virtudes)
   - [Pestaña de Descripción y Notas](#pestaña-de-descripción-y-notas)
@@ -20,7 +21,7 @@ Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente en
 
 
 ## Instalación
-Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: https://github.com/pedrobaringo/kids-on-bikes-csb-es/releases/latest/download/module.json
+Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: [https://github.com/pedrobaringo/liminal-csb-es/releases/latest/download/module.json](https://github.com/pedrobaringo/kids-on-bikes-csb-es/releases/latest/download/module.json)
 
 ![image](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/fb5d72b0-12d4-405c-9ddd-0321c556f317)
 
@@ -28,6 +29,13 @@ Cuando hayas creado un mundo con el sistema Custom System Builder debes activar 
 Es importante que al importar mantenga el ID del documento como se ve en la imagen:
 
 ![image](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/d4ea90fb-d04a-4179-ab39-4fe8ed639835)
+
+## Añadir estilos CSS
+Para que el estilo de las fichas y mensajes sean más parecidos al libro debemos ir a Configurar Ajustes --> Custom System Builder y allí rellenar el campo CSS Style file con "modules/kids-on-bikes-csb-es/packs/assets/KidsOnBikesStyles.css", sin las comillas. Y ya que estamos en este menú, si queremos que nos aparezca un icono de dados al lado de los campos que se pueden tirar, en Roll Icons ponemos "dice" (tambien sin comillas). En iniciativa no es necesario poner nada.
+
+![image](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/ff90dd46-6a2d-4c17-9a7e-5c5163fcf81f)
+
+Para que tenga efecto debemos refrescar la página.
 
 ## Crear un PJ
 Una vez estan importadas las templates ya podemos crear los Actores.
