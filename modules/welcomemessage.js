@@ -16,7 +16,7 @@ Hooks.once("ready", function() {
 	let buttonId2=Date.now()+2;
 	let mensbienv='<h1>Bienvenido al módulo de Kids on Bikes</h1>';
 	let mensimpfirst='<p style= "font-family:IndieFlower;font-size: 15px;">Importa los compendios para empezar a usar el módulo</p><button id='+buttonId2+' style= "font-family:Dreadful;font-size: 30px;">Importa los Compendios</button>';
-	let mensimpact='<p style= "font-family:IndieFlower;font-size: 15px;">Se ha actualizado el módulo desde la última vez que lo usaste. Importa los compendios para tener la última versión de las Templates de actores y objetos.</p><button id='+buttonId2+' font-family:Dreadful;font-size: 30px;>Importa los Compendios</button>'
+	let mensimpact='<p style= "font-family:IndieFlower;font-size: 15px;">Se ha actualizado el módulo desde la última vez que lo usaste. Importa los compendios para tener la última versión de las Templates de actores y objetos.</p><button id='+buttonId2+' style= "font-family:Dreadful;font-size: 30px;">Importa los Compendios</button>'
 	let mensrecordtut='<p style= "font-family:IndieFlower;font-size: 15px;">Recuerda: Puedes añadir un bonificador o penalizador a la tirada si pulsas la tecla Mayus al hacer click en la Habilidad.</p><button id='+buttonId+' style= "font-family:Dreadful;font-size: 30px;">Ve al Tutorial</button>';
 	
 	let forzarbienvenida=game.settings.get("kids-on-bikes-csb-es", "firstTimeStart");
